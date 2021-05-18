@@ -21,7 +21,7 @@ phases:
     commands:
       - echo "Run AWS SAM Build on workflow stack and API stack"
       - export AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query "Account" --output text)
-      - export SERVICE_BUILD_ROLE="arn:aws:iam::${AWS_ACCOUNT_ID}:role/service-role/codebuild-Attires24-App-service-role"
+      - export SERVICE_BUILD_ROLE="arn:aws:iam::${AWS_ACCOUNT_ID}:role/service-role/codebuild-autopilot-pipeline-service-role"
       - echo "SAM package workflow template"
       - |
         sh -c """
