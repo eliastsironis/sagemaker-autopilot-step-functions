@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    ARTIFACTS_BUCKET: galudy-visual-search-artifacts
+    ARTIFACTS_BUCKET: autopilot-sagemaker-artifacts-elias
     S3_WORKFLOW_PREFIX: sagemaker-autopilot-step-functions-workflow
     S3_API_PREFIX: sagemaker-autopilot-api-gateway
     WORKFLOW_STACK_NAME: sagemaker-autopilot-ml-workflow
